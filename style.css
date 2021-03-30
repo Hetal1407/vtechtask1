@@ -1,0 +1,519 @@
+:root {
+    --primary-color:black;
+    --secondary-color: rgb(207, 207, 230);
+    --complimentary-color: #140c7e;
+  }
+
+body{
+    font-family: 'Della Respira', serif;
+}  
+
+.navbar-toggler-icon{
+    background-color: rgb(32, 32, 248);
+}
+.navbar{
+    background-color: var(--primary-color);
+    font-family: 'Della Respira', serif;
+}
+
+.navbar-brand{
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.navbar-brand:hover{
+    color: var(--secondary-color);
+    font-weight:lighter;
+}
+
+.nav-link,#btnNav1,#btnNav2{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-family: 'Della Respira', serif;
+}
+
+.nav-link:hover,#btnNav1:hover, #btnNav2:hover{
+    font-family: 'Della Respira', serif;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+
+#img{
+    height: 700px;
+}
+
+#landingQuote {
+    margin: bottom 10%;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+}
+
+@keyframes example {
+    from {color: var(--secondary-color);}
+    to {color:var(--primary-color);}
+}
+
+#H2{
+    font-size: 10px;
+    font-family: 'Della Respira', serif;
+    text-shadow:4px 3px 3px var(--complimentary-color);
+    animation-name: h2Animate;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+}
+
+@keyframes h2Animate {
+    from {color:var(--primary-color);}
+    to {color: var(--secondary-color);}
+}
+
+#span{
+    font-size: 15px;
+}
+
+#block{
+    font-size: 7px;
+    margin-bottom: 5px;
+    font-family: 'Della Respira', serif;
+    color: var(--primary-color);
+    animation-name: h2Animate;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    text-shadow: 2px 2px 2px var(--complimentary-color);
+}
+
+.btnApply{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: 'Della Respira', serif;
+    box-shadow: 2px 2px 3px var(--complimentary-color);
+    border-radius: 10px;
+    animation-name: btnAnimate;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+}
+
+@keyframes btnAnimate {
+    from {color: var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+    to {color:var(--primary-color);
+        background-color:var(--secondary-color);
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 350px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+         margin-top: 15px;
+        font-size:14px;  
+        color: var(--secondary-color);
+    }
+
+     #span{
+        font-size:23px;
+    }
+
+     #block{
+         display: none;
+     }
+
+    .btnApply{
+        height: 30px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 400px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:22px;  
+    }
+
+     #span{
+        font-size:32px;
+    }
+
+     #block{
+         display:none;
+     }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:26px;  
+    }
+
+     #span{
+        font-size:40px;
+    }
+
+     #block{
+         font-size: 10px;
+         margin-bottom: 5px;
+     }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:35px;  
+    }
+
+     #span{
+        font-size:53px;
+    }
+
+    #block{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:40px;  
+    }
+
+     #span{
+        font-size:60px;
+    }
+
+    #block{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:45px;  
+    }
+
+     #span{
+        font-size:70px;
+    }
+
+    #block{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:50px;  
+    }
+
+     #span{
+        font-size:80px;
+    }
+
+    #block{
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:55px;  
+    }
+
+     #span{
+        font-size:95px;
+    }
+
+    #block{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:55px;  
+    }
+
+     #span{
+        font-size:115px;
+    }
+
+    #block{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:58px;  
+    }
+
+     #span{
+        font-size:131px;
+    }
+
+    #block{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:62px;  
+    }
+
+     #span{
+        font-size:145px;
+    }
+
+    #block{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:68px;  
+    }
+
+     #span{
+        font-size:155px;
+    }
+
+    #block{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:70px;  
+    }
+
+     #span{
+        font-size:175px;
+    }
+
+    #block{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:70px;  
+    }
+
+     #span{
+        font-size:195px;
+    }
+
+    #block{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1700px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:75px;  
+    }
+
+     #span{
+        font-size:210px;
+    }
+
+    #block{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+.modal-dialog{
+    border:2px solid var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--complimentary-color);
+    font-family: 'Della Respira', serif;
+    color: var(--primary-color);
+}
+
+.modal-title{
+    font-weight: bold;
+}
+
+.descent{
+    border:1px solid white;
+    font-weight:normal;
+    font-size: larger;
+    border-radius: 10px;
+    color: var(--primary-color);
+    font-family: 'Della Respira', serif;
+}
+
+.descent:hover{
+    font-weight: bolder;
+    border:2px solid rgb(76, 208, 241);
+}
+
+.titlecontent{
+    color: rgb(26, 11, 155);
+    font-weight: bolder;
+}
+
+#contactUs{
+    font-weight: bolder;
+    font-family: 'Della Respira', serif;
+    border:1px solid white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    display:inline;
+    color: white;
+    text-align: center;    
+}

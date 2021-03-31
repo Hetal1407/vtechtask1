@@ -104,18 +104,21 @@ body{
 }
 
 @media only screen and (min-width: 250px) and (max-width: 350px) {
+    #img{
+        height: 300px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
     
      #H2{
          margin-top: 15px;
-        font-size:14px;  
+        font-size:17px;  
         color: var(--secondary-color);
     }
 
      #span{
-        font-size:23px;
+        font-size:30px;
     }
 
      #block{
@@ -131,6 +134,9 @@ body{
 }
 
 @media only screen and (min-width: 351px) and (max-width: 400px) {
+    #img{
+        height: 300px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
@@ -140,7 +146,7 @@ body{
     }
 
      #span{
-        font-size:32px;
+        font-size:35px;
     }
 
      #block{
@@ -154,6 +160,9 @@ body{
 }
 
 @media only screen and (min-width: 400px) and (max-width: 500px) {
+    #img{
+        height: 300px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
@@ -163,11 +172,11 @@ body{
     }
 
      #span{
-        font-size:40px;
+        font-size:50px;
     }
 
      #block{
-         font-size: 10px;
+         font-size: 15px;
          margin-bottom: 5px;
      }
 
@@ -178,6 +187,9 @@ body{
 }
 
 @media only screen and (min-width: 500px) and (max-width: 600px) {
+    #img{
+        height: 300px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
@@ -202,6 +214,9 @@ body{
 }
 
 @media only screen and (min-width: 601px) and (max-width: 700px) {
+    #img{
+        height: 300px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
@@ -226,6 +241,9 @@ body{
 }
 
 @media only screen and (min-width: 701px) and (max-width: 800px) {
+    #img{
+        height: 500px;
+    }
     #landingQuote {
         margin: bottom 0%;
      }
@@ -471,6 +489,306 @@ body{
     }
 }
 
+@media only screen and (min-width: 1701px) and (max-width: 1800px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:75px;  
+    }
+
+     #span{
+        font-size:230px;
+    }
+
+    #block{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 1900px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:80px;  
+    }
+
+     #span{
+        font-size:250px;
+    }
+
+    #block{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1901px) and (max-width: 2000px) {
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:80px;  
+    }
+
+     #span{
+        font-size:265px;
+    }
+
+    #block{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2100px) {
+    #img{
+        height: 900px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:80px;  
+    }
+
+     #span{
+        font-size:290px;
+    }
+
+    #block{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2101px) and (max-width: 2200px) {
+    #img{
+        height: 900px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:80px;  
+    }
+
+     #span{
+        font-size:315px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2201px) and (max-width: 2300px) {
+    #img{
+        height: 900px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:80px;  
+    }
+
+     #span{
+        font-size:340px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 60px;
+        width: 250px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 2301px) and (max-width: 2400px) {
+    #img{
+        height: 1000px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:90px;  
+    }
+
+     #span{
+        font-size:340px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 60px;
+        width: 250px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 2500px) {
+    #img{
+        height: 1000px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:90px;  
+    }
+
+     #span{
+        font-size:360px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 2600px) {
+    #img{
+        height: 1000px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:95px;  
+    }
+
+     #span{
+        font-size:370px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 2601px) and (max-width: 2800px) {
+    #img{
+        height: 1100px;
+    }
+    #landingQuote {
+        margin: bottom 0%;
+     }
+    
+     #H2{
+        font-size:100px;  
+    }
+
+     #span{
+        font-size:390px;
+    }
+
+    #block{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .btnApply{
+        margin-bottom: 7px;
+        margin-top: 5px;
+        height: 60px;
+        width: 230px;
+        font-size: 20px;
+    }
+}
+
+section{
+    background-color: var(--secondary-color);
+}
+
+#internInfo{
+    border: 2px solid var(--secondary-color);
+}
+
 .modal-dialog{
     border:2px solid var(--secondary-color);
     border-radius: 10px;
@@ -493,8 +811,8 @@ body{
 }
 
 .descent:hover{
-    font-weight: bolder;
-    border:2px solid rgb(76, 208, 241);
+    border:2px solid rgb(160, 37, 37);
+    box-shadow: 7px 7px 7px rgb(160, 37, 37);
 }
 
 .titlecontent{
@@ -505,15 +823,14 @@ body{
 #contactUs{
     font-weight: bolder;
     font-family: 'Della Respira', serif;
-    border:1px solid white;
+}
+
+.modal-content{
+    border: 2px solid red;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 90%;
-    display:inline;
-    color: white;
-    text-align: center;    
 }
